@@ -3,8 +3,6 @@ from discord import app_commands
 import requests
 import os
 from dotenv import load_dotenv
-from h5py.h5a import get_info
-from selenium.webdriver.common.actions import interaction
 
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
